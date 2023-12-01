@@ -27,14 +27,19 @@ h1{
     line-height: 50px;
     font-weight: bold;
 }
+section{
+    border-top: 2px dashed #eee;
+    padding: 50px 0;
+}
 
 .hero{
-    outline: 1px solid red;
     /* vh means viewport height, meaning the window you looking at the page */
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 0;
+    padding: 0;
 }
 .hero img{
     width: 100%;
