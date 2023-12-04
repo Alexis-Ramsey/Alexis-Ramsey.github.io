@@ -4,6 +4,7 @@
     padding: 0;
     border: 0;
     font-size: inherit;
+    font-style: inherit;
     font-weight: inherit;
     font-family: inherit;
     text-decoration: inherit;
@@ -44,7 +45,10 @@ section{
     max-width: 800px;
     margin:0 auto;
 }
-
+address{
+    white-space: pre-line;
+    margin-bottom: 20px;
+}
 .hero{
     /* vh means viewport height, meaning the window you looking at the page */
     height: 100vh;
@@ -101,4 +105,13 @@ section{
 flex-direction: row-reverse;
 text-align: right;
 border-right-width: 0px;
+}
+.prose{
+    text-align: justify;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.prose p,
+.prose ul{
+    margin: 20px 0;
 }
