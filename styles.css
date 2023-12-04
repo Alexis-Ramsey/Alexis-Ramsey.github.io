@@ -94,6 +94,11 @@ address{
     display: inline;
     font-weight: bold;
 }
+.list li{
+    display: list-item;
+    font-weight: bold;
+    text-align: center;
+}
 .blocklist > li{
     display: flex;
     justify-content: center;
